@@ -207,6 +207,8 @@ body {
 }
 
 .about-us .container {
+  padding-top: 2em;
+  z-index: 2;
   background: #FFFFFF;
 }
 .about-us .container a {
@@ -258,6 +260,7 @@ body {
   margin-left: 5em;
 }
 .about-us .container .description ul li {
+  z-index: 2;
   margin-left: 5em;
 }
 .about-us .container .description ul li .cheaper {

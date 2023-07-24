@@ -8,8 +8,8 @@ body{
     width:97% ;
    
   
-    margin: 0;
- 
+    
+    margin:0;
     font-family: 'Poppins';
    
     margin-left: 1.5em;
@@ -292,6 +292,8 @@ body{
  }
 .about-us{
     .container{
+        padding-top:2em ;
+        z-index: 2;
         background: #FFFFFF;
         a{
             text-decoration: none;
@@ -352,13 +354,14 @@ body{
                 }
             }
         .description{
+           
             ul{
                 list-style: none;
                 display:flex;
                 margin-left:5em;
                 
                 li{
-
+                    z-index: 2;
                     .cheaper{
                         position: relative;
                         top: -2em;
@@ -637,24 +640,6 @@ body{
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  .contact{
     .container{
